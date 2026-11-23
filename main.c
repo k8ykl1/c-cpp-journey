@@ -2,15 +2,20 @@
 
 int main(void)
 {
-    int x = 10;
-    int y = 20;
-    double pi = 3.141592653589793;
+    double a=10;
+    double b=3;
+    printf("a+b = %f\n", a+b);
+    printf("a*b = %f\n", a*b);
+    printf("a-b = %f\n", a-b);
+    printf("a/b = %f\n", a/b);
 
-    printf("x = %d\n", x);
-    printf("y = %d\n", y);
-    printf("sum = %d\n", x+y);
-    printf("product = %d\n", x*y);
-    printf("pi = %f\n", pi);
+    double x=5;
+    double f = x*x + 3*x + 2; 
+
+    printf("f(5) = %f\n", f);
+    printf("%d\n", 10 + 5 * 2);
+    printf("%.1f\n", (float)(10+5)*2);
+
 
     return 0;
 }
