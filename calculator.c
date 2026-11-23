@@ -13,6 +13,10 @@ double subtract(double a, double b){
 }
 
 double divide(double a, double b){
+    if (b ==0){
+        printf("Error: division by 0");
+        return 0.0;
+    }
     return a / b;
 }
 
