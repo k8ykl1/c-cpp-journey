@@ -25,7 +25,7 @@ int main(void)
 
 void swap(int *a, int *b){
     *a^=*b;     //a=69^420, b=420
-    *b^=a;      //a=69^420, b=420^(69^420)=69
+    *b^=*a;      //a=69^420, b=420^(69^420)=69
     *a^=b;      //a=(69^420)^69=420, b=69
 }
     Woohoo! a and b are swapped.
